@@ -1,0 +1,567 @@
+* {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+
+/* NAVEGADOR STICKY*/
+
+
+.container {
+
+    width: 100%;
+    height: 40px;
+    background: #212121 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo {
+
+    width: 40px;
+    margin: 0;
+}
+
+.logo img {
+
+width: 100%;
+
+}
+
+.item-options {
+
+    color: #f1f1f1;
+    margin: 0 1.5rem;
+    text-decoration: none;
+
+}
+
+
+/* fin NAVEGADOR STICKY*/
+
+/*BANNER COMUN A TODAS LAS PAGINAS*/
+
+
+#primerfondo {
+
+    background-image:url(https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    background-attachment: fixed;
+    color: #ecf1f1;
+    text-align: center;
+    font-size: 75px;
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    height: 500px;
+    background-size: cover;
+    padding-top: 200px;
+    
+    
+}
+
+/*fin BANNER COMUN A TODAS LAS PAGINAS*/
+
+
+
+
+/*PRIMER PARRAFO*/
+
+#fondo-bienvenida {
+
+background-image: linear-gradient(#232323,black);
+height: 800px;
+
+
+
+}
+
+.primerparrafo-titulo  {
+
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    color: #f5efef;
+    font-size: 34px;
+
+}
+
+.primerparrafo-texto {
+
+    
+    padding: 100px;
+    padding-top: 50px;
+    text-align: center;
+    color: #faf8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.primerparrafo-texto p {
+
+    font-size: 22px;    
+    height: 400px ;
+    width: 600px;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+
+
+
+}
+
+.primerparrafo-texto img {
+
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*FIN PRIMER PARRAFO*/
+
+
+
+
+
+/*SEECION CARTAS DERIVADORAS*/
+
+
+
+
+
+
+
+.container2 {
+
+    background-image: url(../imagenes/barra-fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    padding: 50px;
+    padding-left: 150px;
+    
+    
+}
+
+.card {
+
+    
+    margin: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    width: 300px;
+    height: 650px;
+    -webkit-box-shadow: 11px 20px 17px 1px rgba(230,221,230,0.28);
+    -moz-box-shadow: 11px 20px 17px 1px rgba(230,221,230,0.28);
+    box-shadow: 11px 20px 17px 1px rgba(230,221,230,0.28);
+        
+
+}
+
+.card:hover {
+
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translate(-3%);
+
+
+}
+
+.card img {
+
+    width: 350px;
+    height: 250px;
+    
+
+    
+    
+
+}
+
+.card .contenido1 {
+
+    padding: 15px 15px 0px 15px;
+    text-align: center;
+
+
+}
+
+.card .contenido1 p{
+
+    line-height: 1.5;
+    color: #6a6a6a;
+
+}
+
+.card .contenido1 h3 {
+
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+
+.card .contenido1 a {
+
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    border: 1px solid black ;
+    border-radius: 4px;
+    transition: 400ms ease;
+
+}
+
+.card .contenido1 a:hover {
+
+    background: #0c0c0c;
+    color: #bbe25e;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*SEECION CARTAS DERIVADORAS*/
+
+
+
+
+
+/*TERCER PARRAFO*/
+
+.tercerparrafo {
+
+    height: 800px;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 2%, rgba(255,255,255,0.7791491596638656) 46%, rgba(187,188,189,1) 98%);
+
+
+}
+
+.flex-container-tercerparrafo {
+
+    height: 100px;
+    padding-top: 200px;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+
+}
+
+.flex-container-canva {
+
+  
+  display: flex;
+  height: 600px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+.flex-container-canva div {
+
+
+margin: 100px 50px 100px 50px ;
+color: #0f0f0f;
+text-align: center;
+font-weight: bolder;
+
+}
+
+.flex-container-canva div img {
+
+height: 130px;
+width: 130px;
+border-radius: 15px;
+text-align: center;
+
+
+}
+
+
+
+
+/*FIN TERCER PARRAFO*/
+
+
+/*CUARTO PARRAFO */
+
+.cuartoparrafo {
+
+    background-image: url(https://images.pexels.com/photos/669576/pexels-photo-669576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    display: table;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    
+    
+}
+
+.cuartoparrafo div {
+
+    font-weight: bolder;
+    font-size: 56px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    height: 300px;
+   
+}
+
+.cuartoparrafo div a {
+
+    font-weight: bolder;
+    font-size: 56px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black ;
+    font-style: italic;
+}
+
+
+
+
+
+
+/*FIN CUARTO PARRAFO*/
+
+
+.ultimoparrafo {
+
+    background-color: black ;
+    height: 600px;
+    text-align: center;
+
+}
+
+/* PARTE DE CONTACTO */
+
+
+.container-form  {
+
+    background-color: #141414;
+    height: 900px;
+    padding : 120px 0 120px 120px ;
+   
+    
+    
+}
+
+.container-form h2 {
+
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: #efefef;
+}
+
+.container-form p {
+
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    color: #efefef;
+
+}
+
+.container-form form .campo, textarea {
+
+    padding: 15px 15px;
+    font-size: 15px;
+    border: 1px solid #212121;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    outline: 0px;
+
+}
+
+.container-form form textarea {
+
+    max-width: 700px;
+    min-width: 700px;
+    max-height: 200px;
+    min-height: 200px;
+
+}
+
+.container-form .btn-enviar {
+
+    padding: 15px;
+    margin-left: 50px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background-color: rgb(226, 226, 134) ;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    
+
+}
+
+
+
+/*fin parte de contacto*/
+
+
+/*FOOTER*/
+
+
+.pie-pagina {
+
+   width: 100%;
+   background-color: #212121;
+
+}
+    
+.pie-pagina .grupo-1 {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+
+.pie-pagina .grupo-1 .box figure {
+
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+
+.pie-pagina .grupo-1 .box figure img {
+
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+
+.pie-pagina .grupo-2 {
+
+    background-color: #141414;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina a {
+
+    text-decoration: none;
+    color: #bbe25e;
+
+}
+
+/* fin FOOTER*/
+
+
+
+
+/* NUTRICION PAGINA 2*/
+
+
+.nutricioncontenedor {
+
+        background-image: url(../imagenes/fotonutricion1.jpg);
+        height: 900px;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+}
+
+
+.nutricion-titulo {
+
+    font-size: 50px;
+    text-align: center;
+    padding: 220px 0px;
+    margin-bottom: 0px;
+}
+
+
+.nutricionprimerparrafo {
+
+    font-size: 22px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+}
+
+
+/* NUTRICION PAGINA 2*/
+
+/*ENTRENAMIENTO PAGINA 3*/
+
+.container-entrenamiento {
+
+    background-image: url(../imagenes/fondoentrenamiento1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+
+}
+
+/*DESCANSO PAGINA 4*/ 
+
+.container-descanso {
+
+background-image: url(../imagenes/foto-gato-descanso.jpg);
+height: 900px;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+/*DESCANSO PAGINA 4*/ 
