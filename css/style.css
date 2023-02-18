@@ -18,17 +18,12 @@
 
 
 
-/*PRUEBA DE NAVBAR*/
-
-.prueba-navbar {
-
-    height: 1500px;
-
-}
+/*BORRADOR*/
 
 
 
-/*PRUEBA DE NAVBAR*/
+
+/*FIN DE BORRADOR*/
 
 
 
@@ -43,22 +38,61 @@
 /*BANNER COMUN A TODAS LAS PAGINAS*/
 
 
-#primerfondo {
 
-    background-image:url(../imagenes/pesomuertobyn.jpg) ;
-    background-attachment: fixed;
-    color: #ecf1f1;
-    text-align: center;
-    font-size: 75px;
-    font-weight: bolder;
-    background-repeat: no-repeat;
-    background-size: 600px;
-    height: 500px;
-    background-size: cover;
-    padding-top: 200px;
+.hero {
+
     
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     
 }
+
+.hero h1 {
+
+    font-style: italic;
+    margin-bottom:  -30px ;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hero a {
+
+    font-family: 'poppins' sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    
+
+
+
+
+}
+
+
+
+.hero video {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1
+
+}
+
 
 /*fin BANNER COMUN A TODAS LAS PAGINAS*/
 
@@ -70,7 +104,8 @@
 #fondo-bienvenida {
 
 background-image: linear-gradient(#232323,black);
-height: 800px;
+height: 1000px;
+
 
 
 
@@ -89,13 +124,11 @@ height: 800px;
 .primerparrafo-texto {
 
     
-    padding: 100px;
-    padding-top: 50px;
+    padding: 0px;
+    padding-top: 0px;
     text-align: center;
     color: #faf8f8;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    
 
 }
 
@@ -106,7 +139,8 @@ height: 800px;
     width: 600px;
     margin-top: 100px;
     text-align: center;
-    display: flex;
+    padding-left: 100px;
+    
 
 
 
@@ -114,11 +148,10 @@ height: 800px;
 
 .primerparrafo-texto img {
 
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     margin-top: 100px;
-    display: flex;
-    justify-content: center;
+    
 
 }
 
@@ -127,109 +160,20 @@ height: 800px;
 
 
 
-
 /*SEECION CARTAS DERIVADORAS*/
 
 
+.container-cards {
 
-
-
-
-
-.container2 {
-
-    background-image: url(../imagenes/barra-fondo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 800px;
-    display: flex;
-    padding: 50px;
+    background-color: #282926;
+    height: 1300px;
+    text-align: center;
+    padding-top: 150px;
     padding-left: 150px;
     
     
-}
-
-.card {
-
-    
-    margin: 30px;
-    border-radius: 15px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-    cursor: default;
-    transition: all 400ms ease;
-    width: 300px;
-    height: 650px;
-    -webkit-box-shadow: 11px 20px 17px 1px rgba(230,221,230,0.28);
-    -moz-box-shadow: 11px 20px 17px 1px rgba(230,221,230,0.28);
-    box-shadow: 11px 20px 17px 1px rgba(230,221,230,0.28);
-        
 
 }
-
-.card:hover {
-
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transform: translate(-3%);
-
-
-}
-
-.card img {
-
-    width: 350px;
-    height: 250px;
-    
-
-    
-    
-
-}
-
-.card .contenido1 {
-
-    padding: 15px 15px 0px 15px;
-    text-align: center;
-
-
-}
-
-.card .contenido1 p{
-
-    line-height: 1.5;
-    color: #6a6a6a;
-
-}
-
-.card .contenido1 h3 {
-
-    font-weight: 400;
-    margin-bottom: 15px;
-
-}
-
-.card .contenido1 a {
-
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: black;
-    border: 1px solid black ;
-    border-radius: 4px;
-    transition: 400ms ease;
-
-}
-
-.card .contenido1 a:hover {
-
-    background: #0c0c0c;
-    color: #bbe25e;
-}
-
-
-
 
 
 
@@ -246,60 +190,37 @@ height: 800px;
 
 /*TERCER PARRAFO*/
 
-.tercerparrafo {
 
-    height: 800px;
+.container-obtendras {
+
+    height: 1000px;
     text-align: center;
+    font-size: 40px;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 2%, rgba(255,255,255,0.7791491596638656) 46%, rgba(187,188,189,1) 98%);
-
-
-}
-
-.flex-container-tercerparrafo {
-
-    height: 100px;
-    padding-top: 200px;
-    font-size: 40px;
+    padding-top: 100px;
     font-weight: bolder;
     letter-spacing: 3px;
 
+
 }
 
-.flex-container-canva {
+.container-fluid {
 
-  
-  display: flex;
-  height: 600px;
-  padding: 10px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+    height: 300px;
+    text-align: center;
+    margin-top: 100px ;
 
 
 }
 
-.flex-container-canva div {
+.container-fluid img {
 
-
-margin: 100px 50px 100px 50px ;
-color: #0f0f0f;
-text-align: center;
-font-weight: bolder;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
 
 }
-
-.flex-container-canva div img {
-
-height: 130px;
-width: 130px;
-border-radius: 15px;
-text-align: center;
-
-
-}
-
-
 
 
 /*FIN TERCER PARRAFO*/
@@ -403,10 +324,11 @@ text-align: center;
 
 .container-form form textarea {
 
-    max-width: 700px;
-    min-width: 700px;
+    width: 700px;
+    min-width: 300px;
     max-height: 200px;
     min-height: 200px;
+
 
 }
 
