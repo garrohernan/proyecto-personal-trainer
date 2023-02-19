@@ -246,6 +246,7 @@ height: 1000px;
 
 .cuartoparrafo div {
 
+    color: #fff;
     font-weight: bolder;
     font-size: 56px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -426,12 +427,42 @@ height: 1000px;
 /* NUTRICION PAGINA 2*/
 
 
+.seccion-primera {
+
+    background-color: #212121;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    height: 500px;
+
+}
+
+.seccion-primera h2 {
+
+font-size: 50px ;
+padding: 50px;
+
+}
+
+.text-end {
+
+    font-size: 30px;
+    padding: 30px;
+
+
+}
+
+
+
+
 .nutricioncontenedor {
 
         background-image: url(../imagenes/fotonutricion1.jpg);
         height: 900px;
         background-size: cover;
         background-repeat: no-repeat;
+        
 
 }
 
@@ -455,19 +486,87 @@ height: 1000px;
 }
 
 
+
+
+
+
+
 /* NUTRICION PAGINA 2*/
 
 /*ENTRENAMIENTO PAGINA 3*/
 
 .container-entrenamiento {
 
-    background-image: url(../imagenes/fondoentrenamiento1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
+    background: rgb(70,75,102);
+    background: radial-gradient(circle, rgba(70,75,102,0.8323704481792717) 0%, rgba(41,38,39,0.8295693277310925) 100%);
+    height: 1300px ;
     text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    
 
 }
+
+.container-entrenamiento h2 {
+
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 100px;
+
+
+
+}
+
+
+
+
+.container-entrenamiento .motivos {
+
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+    
+
+}
+
+@media (max-width:700px) {
+    
+    .container-entrenamiento .motivos {
+
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: auto ;
+    
+
+}
+
+}
+
+.container-entrenamiento .motivos-1 {
+
+    
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.container-entrenamiento .motivos-2 {
+
+   
+    margin: 5px;
+    padding: 10px;
+
+
+}
+
+
+
+
+
+
 
 /*DESCANSO PAGINA 4*/ 
 
@@ -477,7 +576,12 @@ background-image: url(../imagenes/foto-gato-descanso.jpg);
 height: 900px;
 background-size: cover;
 background-repeat: no-repeat;
+color: #fff;
+font-size: 40px;
+text-align: center;
 
 }
+
+
 
 /*DESCANSO PAGINA 4*/ 
