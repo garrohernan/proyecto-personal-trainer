@@ -255,6 +255,34 @@ height: 1000px;
 /*FIN TERCER PARRAFO*/
 
 
+
+
+
+/*FONDO FITNESS*/
+
+
+
+.fondo-fitness {
+
+    background-image: url(../imagenes/fitness-mujer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+
+
+}
+
+
+/* FIN FONDO FITNESS*/
+
+
+
+
+
+
 /*CUARTO PARRAFO */
 
 .cuartoparrafo {
@@ -266,7 +294,6 @@ height: 1000px;
     background-attachment: fixed;
     height: 500px;
     width: 100%;
-    background-attachment: fixed;
     text-align: center;
     display: table;
     padding-top: 250px;
