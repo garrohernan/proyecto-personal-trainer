@@ -535,15 +535,42 @@ padding: 50px;
 
 .nutricionprimerparrafo {
 
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
     padding-left: 300px;
     padding-right: 300px;
     padding-bottom: 150px;
+    font-weight: bolder;
 }
 
 
+.nutricioncontenedor2 {
 
+        background-color: #7185499f;
+        padding: 40px;
+
+    
+
+
+}
+
+.nutricioncontenedor2 h3 {
+
+    text-align: center;
+    margin: 15px;
+    padding: 30px;
+
+}
+
+.fondo-cocina {
+
+    background-image: url(../imagenes/platodecarne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+
+}
 
 
 
@@ -629,13 +656,28 @@ padding: 50px;
 
 .container-descanso {
 
+    background-color: #7185499f;
+    padding: 40px;
+
+}
+
+.container-descanso h3 {
+
+    text-align: center;
+    margin: 15px;
+    padding: 30px;
+
+}
+
+
+
+.fondo-gato   {  
+
 background-image: url(../imagenes/foto-gato-descanso.jpg);
-height: 900px;
+height: 600px;
 background-size: cover;
 background-repeat: no-repeat;
-color: #fff;
-font-size: 40px;
-text-align: center;
+background-attachment: fixed;
 
 }
 
